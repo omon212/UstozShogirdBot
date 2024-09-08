@@ -25,6 +25,7 @@ func main() {
 	if err != nil {
 		log.Panic(err)
 	}
+	bot.Debug = true
 
 	users := make(map[int64]*User)
 
